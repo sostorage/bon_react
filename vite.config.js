@@ -11,7 +11,7 @@ export default defineConfig({
   server : {
     proxy : {
       // 차단하지 말라고 원래 포트 번호가 8088이라고 속이는거밍
-      '/api' : 'http://localhost:8088'
+      '/api' : 'http://54.180.250.102:8088'
     }
   }
 
